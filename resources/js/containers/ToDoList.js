@@ -26,19 +26,19 @@ class ToDoList extends Component {
                 toDos: [...this.state.toDos, this.state.toDo]
             });
         }
-    }
+    };
 
     deleteToDo = (index) => {
-        var toDos = this.state.toDos;
+        let toDos = this.state.toDos;
 
         toDos.splice(index, 1);
 
         this.setState({ toDos: toDos});
-    }
+    };
 
     newToDoChange = (event) => {
         this.setState({ toDo: event.target.value });
-    }
+    };
 
     render() {
         return (
