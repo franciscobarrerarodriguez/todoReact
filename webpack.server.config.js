@@ -20,9 +20,9 @@ module.exports = (env) => {
       "app": path.resolve(__dirname, 'resources/js/index.js'),      
     },
     output: {
-      path: path.resolve(__dirname, 'public/assets'),
+      path: path.resolve(__dirname, 'dist'),
       filename: 'js/[name].[hash].js',
-      publicPath: path.resolve(__dirname, 'public/assets')+"/",
+      publicPath: path.resolve(__dirname, 'dist')+"/",
       chunkFilename: 'js/[id].[chunkhash].js',
     },
     devServer: {
