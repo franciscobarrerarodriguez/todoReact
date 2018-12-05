@@ -347,3 +347,14 @@ template {
 [hidden] {
   display: none;
 }
+
+html, body, #app {
+    height: 100%;
+}
+
+body {
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

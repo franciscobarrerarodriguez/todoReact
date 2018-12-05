@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSave } from '@fortawesome/free-solid-svg-icons';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 import ToDoItems from '../components/ToDoItems';
 
@@ -48,10 +48,10 @@ class ToDoList extends Component {
                         <input value={ this.state.toDo }
                                onChange={ this.newToDoChange }
                                type="text"
-                               placeholder="Tarea..."
+                               placeholder="Write here..."
                                name="new-task" />
                         <button type="submit">
-                            <FontAwesomeIcon icon={ faSave } />
+                            <FontAwesomeIcon icon={ faPlus } />
                         </button>
                     </form>
 

@@ -5,7 +5,7 @@ module.exports = {
     "app": path.resolve(__dirname, 'resources/js/index.js'),
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public/assets'),
     filename: 'js/[name].js'
   },
   devServer: {

@@ -5,13 +5,23 @@
 }
 
 .to-do-item {
+
+    padding: 1%;
+
     margin-bottom: 5%;
     display: flex;
-    align-items: center;
-}
+    align-items: flex-start;
 
-.to-do-desc {
-    flex: 1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    background-color: rgba(36, 47, 144, .7);
+
+    color: white;
+    font-size: 1.3em;
+    font-family: "Arial Narrow";
+    letter-spacing: .05em;
 }
 
 .to-do-item:first-of-type {
@@ -20,4 +30,14 @@
 
 .to-do-item:last-of-type {
     margin-bottom: 0;
+}
+
+.to-do-desc {
+    flex: 1;
+}
+
+.to-do-times {
+    border: none;
+    background-color: transparent;
+    color: white;
 }

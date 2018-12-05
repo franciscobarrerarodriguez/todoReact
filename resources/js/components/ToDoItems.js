@@ -11,7 +11,7 @@ class ToDoItems extends Component {
         return (
             <li key={ index } className="to-do-item">
                 <div className="to-do-desc">{ toDo }</div>
-                <button onClick={ () => this.deleteToDo(index) }>
+                <button onClick={ () => this.deleteToDo(index) } className="to-do-times">
                     <FontAwesomeIcon icon={ faTimes } />
                 </button>
             </li>
