@@ -1,0 +1,40 @@
+.to-do-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.container {
+    width: 60%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.to-do-form {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.to-do-form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.to-do-form button {
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.to-do-form button:hover {
+    background-color: cyan;
+    transition: background-color .5s;
+}
